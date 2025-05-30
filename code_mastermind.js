@@ -235,7 +235,7 @@ function MasterMind() {
                     SuccessGame = true;
                     doneSuccess();
             }
-            if (StepsOption) {
+            else if (StepsOption) {
                 stepsDone += 1;
                 var steps_request = document.getElementById("stepsNeeded").value;
                 document.getElementById("inputSteps").hidden = true;
@@ -257,7 +257,6 @@ function howLong() {
     let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     let seconds = Math.floor((distance % (1000 * 60)) / 1000);
     document.getElementById("timeLeft").innerHTML = minutes + "m " + seconds + "s ";
-    distance -= 1000;
     document.getElementById("inputTime").hidden = true;
     if (ColorOption) {
             MasterMind();
@@ -266,11 +265,11 @@ function howLong() {
             document.getElementById("inputGame").hidden = false;
         }
     function countDown() {
+        distance -= 1000;
         let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        document.getElementById("timeLeft").innerHTML = minutes + "m " + seconds + "s ";
-        distance -= 1000;
         numberOfSeconds += 1;
+        document.getElementById("timeLeft").innerHTML = minutes + "m " + seconds + "s ";
         if (distance == 0) {
             clearInterval(CountDownInterval);
             done();
