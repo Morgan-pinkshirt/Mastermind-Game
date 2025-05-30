@@ -1,0 +1,203 @@
+#timeNeeded {
+    display: hidden;
+}
+.image {
+    width: 50%;
+}
+
+html {
+    height: -webkit-fill-available;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+
+body {
+    min-height: -webkit-fill-available;
+    background-size: 1px 100%;
+    margin: 5% 20% 5% 20%;
+    display: grid;
+    grid-template-rows: 55px fit-content(50px) fit-content(50px) auto fit-content(30px) 40px;
+    row-gap: 5px;
+    grid-template-columns: auto auto;
+    background-color: #b1eeff;
+    border: #1acdff solid 20px;
+    border-radius: 60px;
+    padding: 15px;
+}
+
+.columns {
+    grid-column: 1 / span 2;
+}
+.nbr3 {
+    grid-column: 1;
+}
+
+.timer {
+    border: #f00404 solid 5px;
+    padding: 8px;
+}
+
+
+.colorClass {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: repeat(10, auto);
+}
+.circle {
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+#circle0 {
+    background-color: rgb(255, 150, 241);
+    border: rgb(255, 150, 241) solid 5px
+}
+#circle1 {
+    background-color: red;
+    border: red solid 5px
+}
+#circle2 {
+    background-color: rgb(255, 123, 0);
+    border: rgb(255, 123, 0) solid 5px
+}
+#circle3 {
+    background-color: rgb(255, 230, 0);
+    border: rgb(255, 230, 0) solid 5px
+}
+#circle4 {
+    background-color: rgb(0, 219, 0);
+    border: rgb(0, 219, 0) solid 5px
+}
+#circle5 {
+    background-color: rgb(0, 87, 26);
+    border: rgb(0, 87, 26) solid 5px;
+}
+#circle6 {
+    background-color: rgb(0, 238, 226);
+    border: rgb(0, 238, 226) solid 5px
+}
+#circle7 {
+    background-color: rgb(0, 47, 255);
+    border: rgb(0, 47, 255) solid 5px
+}
+#circle8 {
+    background-color: rgb(82, 0, 129);
+    border: rgb(82, 0, 129) solid 5px;
+}
+#circle9 {
+    background-color: rgb(162, 0, 255);
+    border: rgb(162, 0, 255) solid 5px;
+}
+
+
+.number0 {
+    background-color: rgb(255, 150, 241);
+    color: rgb(255, 150, 241);
+    margin: 5px;
+}
+.number1 {
+    background-color: red;
+    color: red;
+    margin: 5px;
+}
+.number2 {
+    background-color: rgb(255, 123, 0);
+    color: rgb(255, 123, 0);
+    margin: 5px;
+}
+.number3 {
+    background-color: rgb(255, 230, 0);
+    color: rgb(255, 230, 0);
+    margin: 5px;
+}
+.number4 {
+    background-color: rgb(0, 219, 0);
+    color: rgb(0, 219, 0);
+    margin: 5px;
+}
+.number5 {
+    background-color: rgb(0, 87, 26);
+    color: rgb(0, 87, 26);
+    margin: 5px;
+}
+.number6 {
+    background-color: rgb(0, 238, 226);
+    color: rgb(0, 238, 226);
+    margin: 5px;
+}
+.number7 {
+    background-color: rgb(0, 47, 255);
+    color: rgb(0, 47, 255);
+    margin: 5px;
+}
+.number8 {
+    background-color: rgb(82, 0, 129);
+    color: rgb(82, 0, 129);
+    margin: 5px;
+}
+.number9 {
+    background-color: rgb(162, 0, 255);
+    color: rgb(162, 0, 255);
+    margin: 5px;
+}
+
+.correct {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    border: rgb(0, 0, 0) solid 2px;
+    font-size: 15px;
+    margin: 2px;
+}
+
+.almost {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) solid 2px;
+    font-size: 15px;
+    margin: 2px;
+}
+.sucessColour {
+    font-size: 100px;
+    text-align: center;
+    color: #8f0094;
+    font-family: fantasy;
+    padding-top: 10px;
+}
+.failColour {
+    font-size: 100px;
+    text-align: center;
+    color: #6b0005;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.smallerFont {
+    font-size: 70px;
+}
+.StartButton {
+    margin: 5px;
+    font-size: 15px;
+    background-color: #78e2ff;
+    border: solid 2px #59dbff;
+}
+
+.StartButton2 {
+    margin: 5px;
+    font-size: 15px;
+    background-color: #18aa30;
+    border: solid 2px #0b9421;
+}
+.text {
+    font-size: 20px;
+}
+
+.specific {
+    font-size: 50px;
+    text-align: center;
+    color: #3712bd;
+    font-family: fantasy;
+}
