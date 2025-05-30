@@ -436,6 +436,10 @@ function doneButton() {
 }
 function clearHTML () {
     window.location.reload();
+    document.getElementById("levelNeeded").value = '';
+    document.getElementById("timeNeeded").value = '';
+    document.getElementById("stepsNeeded").value = '';
+}
 }
 
 function startGame() {
