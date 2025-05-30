@@ -435,10 +435,10 @@ function doneButton() {
     restart_button.addEventListener("click", clearHTML);
 }
 function clearHTML () {
-    window.location.reload();
     document.getElementById("levelNeeded").value = '';
     document.getElementById("timeNeeded").value = '';
     document.getElementById("stepsNeeded").value = '';
+    window.location.reload();
 }
 }
 
