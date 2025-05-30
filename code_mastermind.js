@@ -435,9 +435,9 @@ function doneButton() {
     restart_button.addEventListener("click", clearHTML);
 }
 function clearHTML () {
-    document.getElementById("levelNeeded").value = '';
-    document.getElementById("timeNeeded").value = '';
-    document.getElementById("stepsNeeded").value = '';
+    document.querySelector('#levelNeeded').value = '';
+    document.querySelector('#timeNeeded').value = '';
+    document.querySelector('#stepsNeeded').value = '';
     window.location.reload();
 }
 }
