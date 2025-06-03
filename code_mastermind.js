@@ -29,6 +29,7 @@ function getNumberOnce() {
             x.push(number)
         }
     }
+    console.log(x);
 }
 
 function getNumberTwice() {
