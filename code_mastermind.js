@@ -437,7 +437,6 @@ function doneButton() {
 function clearHTML () {
     window.location.reload();
 }
-}
 
 function startGame() {
     document.getElementById("ColourButton").style.visibility = "hidden";
