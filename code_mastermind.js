@@ -438,6 +438,7 @@ function clearHTML () {
     document.querySelector('#levelNeeded').value = '';
     document.querySelector('#timeNeeded').value = '';
     document.querySelector('#stepsNeeded').value = '';
+    which_level = 0;
     window.location.reload();
 }
 }
