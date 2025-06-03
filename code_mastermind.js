@@ -439,7 +439,7 @@ function clearHTML () {
     document.getElementById("timeNeeded").value = '';
     document.getElementById("stepsNeeded").value = '';
     which_level = 0;
-    window.location.reload();
+    window.location.reload(true);
 }
 
 function startGame() {
