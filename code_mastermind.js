@@ -29,7 +29,6 @@ function getNumberOnce() {
             x.push(number)
         }
     }
-    console.log(x);
 }
 
 function getNumberTwice() {
@@ -436,10 +435,6 @@ function doneButton() {
     restart_button.addEventListener("click", clearHTML);
 }
 function clearHTML () {
-    document.getElementById("levelNeeded").value = '';
-    document.getElementById("timeNeeded").value = '';
-    document.getElementById("stepsNeeded").value = '';
-    which_level = 0;
     window.location.reload(true);
 }
 
