@@ -435,6 +435,10 @@ function doneButton() {
     restart_button.addEventListener("click", clearHTML);
 }
 function clearHTML () {
+    document.querySelector('#levelNeeded').value = '';
+    document.querySelector('#timeNeeded').value = '';
+    document.querySelector('#stepsNeeded').value = '';
+    which_level = 0;
     window.location.reload();
 }
 
